@@ -1,2 +1,5 @@
 # ignore all compiled python modules
 *.cpython*
+/polls/migrations/*
+.pytest_cache/*
+.coverage
