@@ -16,3 +16,9 @@ pipenv shell
 django-admin startproject mysite
 python manage.py runserver
 ```
+
+Building the polls app.
+
+```python
+python manage.py startapp polls
+```
