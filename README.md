@@ -1,5 +1,5 @@
 # djangoProject
-This is a test Django project for learning.
+This is a placeholder for the test Django project built for learning. This was built using the official django documentation. This serves no other purpose than documentating the framework, libraries that were used and will not be maintained anymore.
 
 This project uses Python 3.4.8.
 
@@ -43,4 +43,11 @@ python manage.py migrate
 This project maintains unit tests using pytest and pytest-django. Run tests using the make rule:
 ```bash
 make test
+```
+
+The three endpoints include:
+```python
+http://127.0.0.1:8000/admin/
+http://127.0.0.1:8000/polls/
+http://127.0.0.1:8000/polls/<question_id>/
 ```
